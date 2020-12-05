@@ -29,15 +29,13 @@
   display: block;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.172;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 /* =====end-header====== */
 /* =====hero===== */
 .hero {
-  min-height: 600px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +45,9 @@
 }
 .hero-title {
   width: 696px;
-  margin: auto;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -58,6 +58,7 @@
 .hero-button {
   display: block;
   margin-top: 30px;
+  margin-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
   min-width: 200px;
@@ -118,10 +119,10 @@
 }
 .work-title,
 .team-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.167;
+  line-height: 1.172;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -135,10 +136,11 @@
   background-color: #f5f4fa;
 }
 .team-name {
-  padding: 30px 59px 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.188;
+  line-height: 1.172;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -149,9 +151,10 @@
   margin-right: 30px;
 }
 .team-position {
+  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.188;
+  line-height: 1.172;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
@@ -170,12 +173,13 @@
   display: none;
 }
 .nav-gallery {
-  margin-bottom: 50px;
+  margin-bottom: 34px;
   display: flex;
   justify-content: center;
 }
 .nav-gallery-items {
   display: flex;
+  padding-bottom: 16px;
 }
 .nav-gallery-link {
   display: flex;
@@ -187,7 +191,8 @@
   display: block;
   border: none;
   border-radius: 4px;
-  padding: 12px 22px;
+  padding: 6px 22px;
+  min-height: 38px;
 
   font-weight: 500;
   font-size: 16px;
@@ -220,17 +225,19 @@
   margin-bottom: 0;
 }
 .filter-title {
-  min-width: 322px;
-  height: 36px;
-  padding: 20px 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 20px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .filter-btn-text {
-  width: 322px;
-  padding: 20px 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
@@ -239,6 +246,3 @@
 }
 /* =====end-filtrs===== */
 /* =====end portfolio page===== */
-.site-nav .current {
-  color: var(--accent-color);
-}
