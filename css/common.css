@@ -57,6 +57,16 @@ img {
 .site-nav .current {
   color: var(--accent-color);
 }
+.mail-icon,
+.tel-icon {
+  margin-right: 10px;
+}
+.contacts-mail:hover .mail-icon,
+.contacts-mail:focus .mail-icon,
+.contacts-tel:hover .tel-icon,
+.contacts-tel:focus .tel-icon {
+  fill: currentColor;
+}
 /* =====end-components===== */
 /* =====header===== */
 
