@@ -59,6 +59,7 @@ img {
 }
 .mail-icon,
 .tel-icon {
+  fill: #757575;
   margin-right: 10px;
 }
 .contacts-mail:hover .mail-icon,

@@ -88,10 +88,18 @@
 }
 .features-items-link {
   width: 270px;
-  height: 101px;
 }
 .features-items-link:not(:last-child) {
   margin-right: 30px;
+}
+.features-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 .features-link-title {
   font-weight: 700;
@@ -155,11 +163,17 @@
 .team-items {
   display: flex;
 }
+.team-card {
+  background-color: var(--secondary-color);
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .team-link:not(:last-child) {
   margin-right: 30px;
 }
 .team-position {
-  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.172;
@@ -167,7 +181,36 @@
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-top: 16px;
+}
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+}
+.social-list .icon {
+  fill: #afb1b8;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--bg-color);
+}
+.social-list-link:hover .icon,
+.social-list-link:focus .icon {
+  fill: var(--secondary-color);
+}
 /* =====end-section-team===== */
+/* =====section-clients===== */
+/* ===== end-section-clients===== */
 /* =====end main page===== */
 /* =====portfolio page===== */
 /* =====portfolio===== */
