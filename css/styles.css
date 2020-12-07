@@ -134,7 +134,8 @@
   margin-right: 30px;
 }
 .work-title,
-.team-title {
+.team-title,
+.clients-title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -208,8 +209,42 @@
 .social-list-link:focus .icon {
   fill: var(--secondary-color);
 }
-/* =====end-section-team===== */
-/* =====section-clients===== */
+.clients {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+.clients-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+}
+.clients-list-link:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-list .icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5,
+.icon-6 {
+  fill: currentColor;
+}
+.clients-list-link:hover,
+.clients-list-link:focus {
+  color: var(--bg-color);
+  border-color: var(--bg-color);
+}
 /* ===== end-section-clients===== */
 /* =====end main page===== */
 /* =====portfolio page===== */
