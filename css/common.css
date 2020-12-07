@@ -107,6 +107,10 @@ img {
 .site-nav-link {
   color: #212121;
 }
+.contacts-footer {
+  width: 231px;
+  margin-right: 70px;
+}
 .contacts-footer-list {
   padding-top: 20px;
   max-width: 231px;
@@ -124,5 +128,48 @@ img {
 .contacts-footer-tel {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+  min-height: 80px;
+}
+
+.footer-social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+.social-list-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-top: 16px;
+}
+.social-list-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.social-list-footer .icon {
+  fill: var(--secondary-color);
+}
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+  background-color: var(--bg-color);
+}
+.social-list-link-footer:hover .icon,
+.social-list-link-footer:focus .icon {
+  fill: var(--secondary-color);
 }
 /* =====end-footer===== */
