@@ -147,10 +147,8 @@ img {
 }
 .social-list-footer {
   display: flex;
-  justify-content: space-between;
-  margin-right: 32px;
-  margin-left: 32px;
-  margin-top: 16px;
+  justify-content: flex-start;
+  align-items: center;
 }
 .social-list-link-footer {
   display: flex;
