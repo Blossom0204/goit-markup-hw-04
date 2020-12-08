@@ -48,6 +48,7 @@ img {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 .container {
   width: 1200px;
