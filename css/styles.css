@@ -4,36 +4,6 @@
   --text-color: #757575;
 }
 /* =====maim page===== */
-/* =====header====== */
-.header .logo-color {
-  margin-right: 93px;
-}
-.header .contacts {
-  display: flex;
-  margin-left: auto;
-}
-.navigation {
-  display: flex;
-  align-items: center;
-}
-.site-nav {
-  display: flex;
-}
-.site-nav-item:not(:last-child) {
-  margin-right: 50px;
-}
-.contact-item:not(:last-child) {
-  margin-right: 50px;
-}
-.site-nav-link {
-  display: block;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.172;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-/* =====end-header====== */
 /* =====hero===== */
 .hero {
   display: flex;
