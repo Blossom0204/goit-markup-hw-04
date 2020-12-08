@@ -97,12 +97,12 @@ img {
 /* =====footer===== */
 .footer-section {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-section .container {
   display: flex;
   align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .footer-adress {
   width: 231px;
