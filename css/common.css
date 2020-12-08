@@ -96,19 +96,20 @@ img {
 
 /* =====footer===== */
 .footer-section {
+  display: flex;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .footer-adress {
-  display: inline-block;
   width: 231px;
   margin-right: 70px;
+  align-items: baseline;
 }
 .social-footer {
-  display: inline-block;
   width: 206px;
   height: 80px;
+  align-items: baseline;
 }
 .social-list-footer {
   display: flex;
