@@ -95,9 +95,12 @@ img {
 /* =====end-header===== */
 
 /* =====footer===== */
+.footer-section {
+  background-color: #2f303a;
+}
 .footer-section .container {
   display: flex;
-  background-color: #2f303a;
+  align-items: baseline;
   padding-top: 60px;
   padding-bottom: 60px;
 }
